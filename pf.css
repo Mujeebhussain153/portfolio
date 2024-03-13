@@ -39,15 +39,14 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    box-shadow: 1px 1px 15px red;
     margin-top: 15px;
 }
 .flexbox > div{
     color: white;
-    max-width: 33.33%;
     padding: 30px;
     /* margin: 10px; */
-    /* box-shadow: 1px 1px 10px red; */
+    width: 32.33%;
+    box-shadow: 1px 1px 10px red;
 }
 .footer{
     bottom: 0;
@@ -57,4 +56,16 @@ h1{
 }
 .footer p{
     color: white;
+}
+@media only screen and (max-width: 500px) {
+    .flexbox > div{
+        width: 100%;
+        margin: 10px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 3px;
+        box-shadow: 1px 1px 15px red;
+    }
 }
