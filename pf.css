@@ -39,7 +39,7 @@ h1{
     line-height: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 32.35%;
-    text-align: left;
+    text-align: justify;
     box-shadow: 1px 1px 10px red;
 }
 p{
@@ -80,6 +80,5 @@ p{
     }
     .skill-flex > h4{
         width: 25%;
-        text-align: left;
     }
 }
