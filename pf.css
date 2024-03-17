@@ -80,5 +80,12 @@ p{
     }
     .skill-flex > h4{
         width: 25%;
+        text-align: justify;
+    }
+}
+@media only screen and (orientation: landscape){
+    .skill-flex > h4{
+        width: 50%;
+        text-align: justify;
     }
 }
