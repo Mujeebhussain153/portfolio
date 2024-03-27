@@ -78,14 +78,11 @@ p{
     .nav-links a{
         padding: 2px;
     }
+    
+}
+@media screen and (max-width: 800px){
     .skill-flex > h4{
         width: 25%;
-        text-align: justify;
-    }
-}
-@media screen and (max-width: 720px){
-    .skill-flex > h4{
-        width: 33.33%;
-        text-align: justify;
+        text-wrap: wrap;
     }
 }
